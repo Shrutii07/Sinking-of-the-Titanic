@@ -68,13 +68,13 @@ Where alpha is the learning rate.
 
 For a given number of iterations ,the following steps take place in order:
 
-1.Forward Propagation
+1. Forward Propagation
 
-2.Backward Propagation
+2. Backward Propagation
 
-3.Updates of parameters
+3. Updates of parameters
 
-4.Calculation of cost and accuracy on every 100th iteration.
+4. Calculation of cost and accuracy on every 100th iteration.
 
 Finally the model function returns lists of cost and accuracy calculated at every iteration. Using them we plotted two graphs :
 
