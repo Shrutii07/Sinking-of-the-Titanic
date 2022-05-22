@@ -43,20 +43,20 @@ X=(x(1),x(2)........ , x(m))
 
 Y=(y(1),y(2)....... ,y(m))
 
-**1.Initializing Parameters:**
+**1. Initializing Parameters:**
 
 W was initialized to zero column array having 19 rows(number of input features after dummy encoding).
 B was initialized to scalar zero. 
 
-**2.Forward Propagation:**
+**2. Forward Propagation:**
 
 ![Screenshot (6)](https://user-images.githubusercontent.com/50697244/72220355-e1905600-3575-11ea-90e5-8286408c090a.png)
 
-**3.Backward Propagation:**
+**3. Backward Propagation:**
 
 ![Screenshot (8)](https://user-images.githubusercontent.com/50697244/72220432-9a569500-3576-11ea-917a-3e02e092342e.png)
 
-**4.Update Parameters:**
+**4. Update Parameters:**
 
 W := W - alpha x dW
 
@@ -64,7 +64,7 @@ b := b - alpha x db
 
 Where alpha is the learning rate.
 
-**5.Perceptron:**
+**5. Perceptron:**
 
 For a given number of iterations ,the following steps take place in order:
 
